@@ -19,5 +19,8 @@ Create an access token with write permission
 
 export STRAVA_ACCESS_TOKEN=token
 
-go run main.go path-to-file
+go run main.go -f [file]
+
+Upload the activity as private
+go run main.go -f [file] -p
 ```
